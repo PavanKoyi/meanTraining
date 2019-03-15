@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Pavan",
+        "age": 21,
+        "children": [
+            
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Kumar",
+        "category": 42,
+        "children": [
+            {
+            "name": "child1",
+            "age": 12
+            },
+            {
+                "name": "child2",
+                "age": 10
+            }
+        ]
+      }
+]

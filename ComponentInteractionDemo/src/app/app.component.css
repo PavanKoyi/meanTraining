@@ -1,0 +1,16 @@
+.parent-com {
+    position: absolute;
+    top: 10vh;
+    height: 50vh;
+    left: 10vw;
+    width: 30vw;
+    border: 1px solid;
+}
+
+.list {
+    position: absolute;
+    top: 30%;
+    height: 70%;
+    width: 100%;
+    background-color: bisque;
+}

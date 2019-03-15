@@ -1,0 +1,11 @@
+<div class="child-com">
+
+  <h1>Welcome {{ userName }}</h1>
+
+  <button (click)="callParent()">ClickMe</button>
+  <div class="content">
+    <p>Contecnt projecting from Parent:</p>
+    <ng-content select="h1"></ng-content>
+    <ng-content select="h2"></ng-content>
+  </div>
+</div>

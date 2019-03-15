@@ -1,0 +1,21 @@
+<div class="parent-com">
+  <h1 *ngIf="parent">Parent {{ parent.name }} is called... with message {{ parent.message }}  </h1>
+  <div class="list">
+    <ul>
+        <ul *ngFor= " let person of data "> 
+          {{ person.name }}
+          <ul *ngIf="person.children.length > 0">
+              <li *ngFor=" let child of person.children ">
+                  {{ child.name }}
+                </li>
+          </ul>
+          
+        </ul>
+    </ul>
+  </div>
+</div>
+
+<app-child [userName]="name" (childEvent)="parent=$event">
+  <h1>Emp.Id : {{ dataToProject.id }}</h1>
+  <h2>Name : {{ dataToProject.name }}</h2>
+</app-child>
