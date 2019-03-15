@@ -1,0 +1,11 @@
+<div class="video-list">
+   <select (change)="onChange($event.target.value)">
+        <option value="NewBee">NewBee</option>
+        <option value="Angular">Angular</option>
+  </select>
+  <ul>
+    <li *ngFor="let v of videodata" class="title-card" (click)="onVideoSelect(v)">
+        {{ v.title }}
+    </li>
+  </ul>
+</div>

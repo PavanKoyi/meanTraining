@@ -1,0 +1,17 @@
+.foot {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    height: 3vh;
+    width: 100%;
+    background-color: #906e62;
+}
+
+.tm {
+    position: absolute;
+    top: 1vh;
+    height: 2vh;
+    font-size: 1vh;
+    right: 10vw;
+    bottom: 0%;
+}

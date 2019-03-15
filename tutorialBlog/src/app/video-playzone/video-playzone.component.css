@@ -1,0 +1,33 @@
+
+.title {
+    position: absolute;
+    left: 47vw;
+    top: 11vh;
+    height: 5vh;
+    width: 43vw;
+    background-color: #0404046b;
+    border-radius: 10px;
+    text-align: center;
+}
+
+iframe {
+    position: relative;
+    font-size: inherit;
+    top: 15vh;
+    left: 45vw;
+    right: 10vw;
+    width: 45vw;
+    height: 50vh;
+    border: 10px solid #f5f5f5a6;
+    border-radius: 15px;
+}
+
+.fav-icon {
+    position: absolute;
+    left: 47vw;
+    top: 68vh;
+    height: 5vh;
+    width: 43vw; 
+    background-color: #f5f5f5a6;
+    border-radius: 10px;
+}

@@ -1,0 +1,7 @@
+<div class="title">
+  <h2 *ngIf="vid">{{ vid.title }}</h2>
+</div>
+<iframe [src]="videoUrl"  allowfullscreen></iframe>
+<div class="fav-icon">
+  <button (click)="onAddFavourite()">AddToFav</button>
+</div>

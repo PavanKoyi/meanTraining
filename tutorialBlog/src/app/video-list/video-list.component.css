@@ -1,0 +1,20 @@
+.video-list {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 30vw;
+    height: 90%;
+    background-color: #f5f5f5a6;
+}
+
+.title-card {
+    position: relative;
+    height: 10%;
+    width: 80%;
+    background-color: azure;
+    padding: 20px;
+    margin: 5px;
+    font-family: cursive;
+    border-radius: 15px;
+    cursor: pointer;
+}

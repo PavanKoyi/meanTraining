@@ -1,0 +1,42 @@
+.head {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 10vh;
+    width: 100vw;
+    background-color: #906e62;
+}
+
+.logo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 10%;
+    /* background-color: antiquewhite; */
+}
+
+.title {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    right: 25%;
+    align-content: center;
+    height: 100%;
+    width: 50%;
+    border-radius: 100%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 100%;
+}
+
+
+.profile-icon {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    height: 70%;
+    width: 5%;
+    /* background-color: antiquewhite; */
+    border-radius: 100%;
+}
