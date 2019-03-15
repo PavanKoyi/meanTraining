@@ -8,3 +8,6 @@ const routes: Routes = [];
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
+// I think Its better to ad this line too
