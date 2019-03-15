@@ -1,0 +1,42 @@
+ul {
+    /* height: 100vh; */
+    width: 60vw;
+}
+
+li {
+    padding: 10px;
+    position: relative;
+    background-color: #d6d6d6;
+    left: 0%;
+    width: 100%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.logo-part {
+    /* width: 15%; */
+    float: left;
+    padding-right: 10px;
+}
+
+.title {
+    width: 80%;
+    float: left;
+}
+
+
+.logo {
+    height: 40px;
+    width : 40px;
+    border-radius: 15px;
+}
+
+.picture {
+    /* height: 20%; */
+    width: 50%;
+}
+
+.news-image {
+    /* height: 100%; */
+    width: 65%;   
+}

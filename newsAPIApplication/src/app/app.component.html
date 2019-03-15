@@ -1,0 +1,21 @@
+<div class="news-items">
+  <ul>
+    <li *ngFor = "let newsItem of newsItems" (click)="onNewsItemSelected(newsItem)">
+        <div class="news">
+          <!-- <div class="logo-part">
+            <img class="logo" src="{{ newsItem.logo }}" alt="logo">
+          </div> -->
+          <div class="title-part">
+            <h1>{{ newsItem.title }}</h1> 
+          </div>
+          <div class="picture">
+            <img class="news-image" src="{{ newsItem.urlToImage }}" alt="picture"> 
+          </div>
+        </div>
+      <p>
+        {{ newsItem.content }}
+      </p>
+    </li>
+  </ul>
+</div>
+<router-outlet></router-outlet>
